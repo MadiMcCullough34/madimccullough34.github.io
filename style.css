@@ -1,20 +1,17 @@
 
-/* The entire webpage layout */
 .container {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    gap: 15px;
-    min-height: 100vh;
+    gap: 10px;
+    height: 95vh;
 }
 
-/* The left side holds two sections */
 .left-side {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    gap: 15px;
+    gap: 10px;
 }
 
-/* The two left sections */
 .section-one {
     background-color: lightpink;
     padding: 20px;
@@ -25,7 +22,6 @@
     padding: 20px;
 }
 
-/* The large right section */
 .right-side {
     background-color: lightblue;
     padding: 20px;
