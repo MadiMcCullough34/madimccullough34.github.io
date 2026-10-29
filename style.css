@@ -1,24 +1,5 @@
-body { <div class="left-side">
-            <div class="section-one">
-                <h1>Section One</h1>
-                <p>Content for the top left section.</p>
-            </div>
-
-            <div class="section-two">
-                <h1>Section Two</h1>
-                <p>Content for the bottom left section.</p>
-            </div>
-        </div>
-
-        <div class="right-side">
-            <h1>Section Three</h1>
-            <p>Content for the large right section.</p>
-        </div>
-
-    </div>
-
-</body>
-  background-color: brown;
+body {
+  background-color: powderblue;
 }
 h1 {
   color: blue;
@@ -31,6 +12,10 @@ p {
 
 .myclass {
   background-color: #fff7e8; /** hex codes also work for colors **/
+}
+
+#unique-id {
+  font-family: Arial, Helvetica, sans-serif; /** you can specify common font families OR link to a Google Font API **/
 }
 
 #unique-id {
