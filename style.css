@@ -1,23 +1,32 @@
-body {
-  background-color: powderblue;
-}
-h1 {
-  color: blue;
-}
-p {
-  color: red;
-}
-/** CSS comments are written enclosed with these characters **/
 
-
-.myclass {
-  background-color: #fff7e8; /** hex codes also work for colors **/
+/* The entire webpage layout */
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+    min-height: 100vh;
 }
 
-#unique-id {
-  font-family: Arial, Helvetica, sans-serif; /** you can specify common font families OR link to a Google Font API **/
+/* The left side holds two sections */
+.left-side {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
 }
 
-#unique-id {
-  font-family: Arial, Helvetica, sans-serif; /** you can specify common font families OR link to a Google Font API **/
+/* The two left sections */
+.section-one {
+    background-color: lightpink;
+    padding: 20px;
+}
+
+.section-two {
+    background-color: lavender;
+    padding: 20px;
+}
+
+/* The large right section */
+.right-side {
+    background-color: lightblue;
+    padding: 20px;
 }
