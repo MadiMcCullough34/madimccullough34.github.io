@@ -75,6 +75,8 @@ body {
 }
 .banner {
     background-color: #594537;
+    background-image: radial-gradient(#D5C2B1 2px, transparent 2px);
+    background-size: 25px 25px;
     color: #F5F0E8;
     text-align: center;
     padding: 35px;
