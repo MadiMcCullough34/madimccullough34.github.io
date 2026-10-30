@@ -56,3 +56,6 @@ body {
 .about-content p {
     flex: 1;
 }
+    border: 5px double #594537;
+    padding: 5px;
+    border-radius: 5px;
