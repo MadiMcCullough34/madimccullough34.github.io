@@ -47,8 +47,8 @@ body {
 }
 
 .about-content img {
-    width: 150px;
-    height: 190px;
+    width: 175px;
+    height: 215px;
     object-fit: cover;
     flex-shrink: 0;
         border: 5px double #594537;
