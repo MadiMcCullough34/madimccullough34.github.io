@@ -14,7 +14,8 @@ body {
 
 .left-side {
     display: grid;
-    grid-template-rows: auto 1fr;
+    grid-template-rows: auto auto;
+    align-content: start;
     gap: 15px;
 }
 
