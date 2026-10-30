@@ -1,28 +1,35 @@
 
+body {
+    background-color: #F5F0E8;
+    font-family: Georgia, serif;
+    color: #594537;
+}
+
 .container {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    gap: 10px;
-    height: 95vh;
+    gap: 15px;
+    min-height: 95vh;
 }
 
 .left-side {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    gap: 10px;
+    gap: 15px;
 }
 
 .section-one {
-    background-color: lightpink;
-    padding: 20px;
+    background-color: #E6D9CC;
+    padding: 25px;
 }
 
 .section-two {
-    background-color: lavender;
-    padding: 20px;
+    background-color: #D5C2B1;
+    padding: 25px;
 }
 
 .right-side {
-    background-color: lightblue;
-    padding: 20px;
+    background-color: #594537;
+    color: white;
+    padding: 25px;
 }
