@@ -61,8 +61,8 @@ body {
 }
 
 .right-side img {
-    width: 90%;
-    height: 160px;
+    width: 80%;
+    height: 250px;
     object-fit: cover;
     border: 4px solid #D5C2B1;
     padding: 4px;
