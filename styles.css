@@ -46,7 +46,7 @@ body {
     height: 215px;
     object-fit: cover;
     flex-shrink: 0;
-    border: 10px solid red;
+    border: 8px double #594537;
     border-radius: 5px;
     padding: 5px;
     background-color: #F5F0E8;
