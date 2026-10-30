@@ -33,3 +33,14 @@ body {
     color: white;
     padding: 25px;
 }
+.about-content {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.about-content img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}
