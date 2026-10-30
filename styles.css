@@ -73,3 +73,21 @@ body {
     font-size: 14px;
     margin-bottom: 20px;
 }
+.banner {
+    background-color: #594537;
+    color: #F5F0E8;
+    text-align: center;
+    padding: 35px;
+    margin-bottom: 15px;
+}
+
+.banner h1 {
+    font-size: 45px;
+    font-style: italic;
+    margin: 10px;
+}
+
+.banner p {
+    font-size: 12px;
+    letter-spacing: 3px;
+}
